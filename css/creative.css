@@ -315,9 +315,9 @@ header.masthead p {
 }
 
 .download {
-  color: #a80000;
+  color: #e23535;
   background: none;
-  border: 1px solid #a80000;
+  border: 1px solid #e23535;
   font-weight: 400;
 }
 
@@ -328,7 +328,7 @@ hr {
 }
 
 .navboarder:hover {
-  color: #a80000;
+  color: #e23535;
 }
 
 @media only screen and (min-width: 992px) {
@@ -340,6 +340,7 @@ hr {
 
 section {
   padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .section-heading {
@@ -358,6 +359,7 @@ section {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-top: 20px;
 }
 
 #intuitive li {
