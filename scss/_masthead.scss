@@ -4,7 +4,7 @@ header.masthead {
   padding-bottom: calc(10rem - 56px);
   // background-image: url('../img/header.jpg');
   background-position: center center;
-  background-color: #1B2126;
+  background-color: #1e252c;
   @include background-cover;
   hr {
     margin-top: 30px;
@@ -18,7 +18,7 @@ header.masthead {
   }
   @media (min-width: 768px) {
     p {
-      font-size: 1.0rem;
+      font-size: 1rem;
     }
   }
   @media (min-width: 992px) {
