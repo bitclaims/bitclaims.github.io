@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: white !important;
 }
 
 .bg-dark {
@@ -56,6 +56,7 @@ section {
 
 .section-heading {
   margin-top: 0;
+  color: #458de1;
 }
 
 ::-moz-selection {
@@ -311,4 +312,58 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.download {
+  color: #a80000;
+  background: none;
+  border: 1px solid #a80000;
+  font-weight: 400;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-style: none;
+}
+
+.navboarder:hover {
+  color: #a80000;
+}
+
+@media only screen and (min-width: 992px) {
+  .navboarder {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+  }
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+#intuitive {
+  background-color: #f7f8fa;
+}
+
+#architecture {
+  background-color: white;
+}
+
+#laptop {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#intuitive li {
+  margin-top: 40px;
+}
+
+#intuitive li:first-child {
+  margin-top: 0;
 }

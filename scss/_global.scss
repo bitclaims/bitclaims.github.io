@@ -23,7 +23,7 @@ a {
   color: $primary;
   @include transition-all;
   &:hover {
-    color: darken($primary, .1);
+    color: darken($primary, 0.1);
   }
 }
 
@@ -37,7 +37,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  background-color: white !important;
 }
 
 .bg-dark {
@@ -45,7 +45,7 @@ h6 {
 }
 
 .text-faded {
-  color: fade-out($white, .3);
+  color: fade-out($white, 0.3);
 }
 
 section {
@@ -54,6 +54,7 @@ section {
 
 .section-heading {
   margin-top: 0;
+  color: #458de1;
 }
 
 ::-moz-selection {
