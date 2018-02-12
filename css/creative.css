@@ -382,3 +382,7 @@ section {
 #architecture li:first-child {
   margin-top: 0;
 }
+
+#benefits {
+  background-color: #f7f8fa;
+}
