@@ -115,7 +115,7 @@ gulp.task('browserSync', function() {
   browserSync.init({
     server: {
       baseDir: "./"
-    }
+    }, port: 8080
   });
 });
 

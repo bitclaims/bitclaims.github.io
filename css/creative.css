@@ -127,6 +127,11 @@ img::-moz-selection {
   background-color: transparent;
 }
 
+#mainNav .navbar-center {
+  display: inline;
+  margin-top: 2px;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
