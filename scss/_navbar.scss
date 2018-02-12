@@ -37,6 +37,12 @@
       }
     }
   }
+  
+  .navbar-center {
+    display: inline;
+    margin-top: 2px;
+  }
+
   @media (min-width: 992px) {
     border-color: transparent;
     background-color: transparent;
