@@ -80,3 +80,58 @@ section {
 #benefits {
   background-color: #f7f8fa;
 }
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#contact {
+  background-color: #1e252c;
+}
+
+.icon-bar {
+  width: 22px;
+  height: 2px;
+  background-color: #b6b6b6;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}

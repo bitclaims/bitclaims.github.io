@@ -1,6 +1,10 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  particlesJS.load("particles-js", "img/particles.json", function() {
+    console.log("callback - particles.js config loaded");
+  });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (
