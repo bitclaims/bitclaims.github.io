@@ -91,6 +91,40 @@ section {
 
 #contact {
   background-color: #1e252c;
+  p {
+    margin-top: 10px;
+  }
+}
+
+.fdb-block {
+ .fa-linkedin {
+  color:grey;
+  > :hover{
+    color: #0077B5;
+  }
+}
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.team-member img {
+  width: 70%;
+}
+
+@media (orientation: portrait){
+  .team-member {
+      margin-bottom: 8.84vw;
+  }
+}
+
+@media (orientation: landscape){
+  .team-member {
+      margin-bottom: 5vw;
+  }
 }
 
 .icon-bar {
@@ -235,14 +269,14 @@ section {
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
-  background: #75ce66;
+.cd-timeline-img.cd-1 {
+  background: #63D8FF;
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
+.cd-timeline-img.cd-2 {
+  background: #e23535;
 }
-.cd-timeline-img.cd-location {
-  background: #f0ca45;
+.cd-timeline-img.cd-3 {
+  background: #007be8;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
