@@ -396,6 +396,15 @@ section {
   background-color: #f7f8fa;
 }
 
+#mission h3 {
+  margin-top: 30px;
+}
+
+#mission .mission-text {
+  font-size: 13px;
+  margin: 0 10px 20px 10px;
+}
+
 #rans {
   background-color: #f7f8fa;
 }
