@@ -19,6 +19,7 @@
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="vertical-timeline.css" rel="stylesheet">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -56,22 +57,25 @@
             <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">MISSION</a>
+            <a class="nav-link js-scroll-trigger" href="#mission">MISSION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">WHITEPAPER</a>
+            <a class="nav-link js-scroll-trigger" href="#whitepaper">WHITEPAPER</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">HOW IT WORKS</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#rans">R.A.N.S</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">RANS</a>
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Team</a>
+            <a class="nav-link js-scroll-trigger" href="#cd-timeline">Roadmap</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Roadmap</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact us</a>
           </li>
         </ul>
         <div style="padding-top:15px;" class=" d-lg-none">
@@ -105,7 +109,7 @@
     <div id="particles-js"></div>
   </div>
 
-  <section id="benefits">
+  <section id="mission">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
@@ -116,30 +120,30 @@
         </div>
       </div>
       <div style="padding-top:30px;" class="row text-center justify-content-center">
-        <div class="col-sm-3 m-sm-auto">
+        <div  class="col-sm-3 m-sm-auto">
 
-          <img alt="image"  width="70%" src="/img/SVG/transfer.svg">
+          <img data-aos="fade-up" alt="image"  width="70%" src="/img/SVG/transfer.svg">
 
 
           <h2 style="margin-top:40px;">Decentralized</h2>
           <p>Payers and Providers enter into an agreement knowing all the terms of execution, of which no one party can change at will. BitClaims nodes run on the machines of network participants for Payers, Providers, Billers and Coders. All BitClaims network participants verify the specific metrics and variables that are entered into the fields of a claim in real time.</p>
 
-          <h2 style="margin-top:40px;">Sara Doe</h2>
+          <!-- <h2 style="margin-top:40px;">Sara Doe</h2> -->
 
-          <p>Founder</p>
+          <!-- <p>Founder</p> -->
 
 
         </div>
 
         <div class="col-sm-3 m-sm-auto">
-          <img alt="image"  width="70%" src="/img/SVG/security shield.svg">
+          <img data-aos="fade-up" alt="image"  width="70%" src="/img/SVG/security shield.svg">
 
           <h2 style="margin-top:40px;">Transparent</h2>
           <p>All network participants come to a consensus on the work being done on each claim in real time. Pre-populated smart contracts mapped to claim specific procedural and diagnostic codes ensure an audited, verified and adjudicated claim. Stay tuned for our demo to show how we are automating out clearinghouses!</p>
         </div>
 
         <div class="col-sm-3 m-sm-auto">
-          <img alt="image" width="70%" src="/img/SVG/investment.svg">
+          <img data-aos="fade-up" alt="image" width="70%" src="/img/SVG/investment.svg">
 
           <h2 style="margin-top:40px;">Compliant</h2>
 
@@ -165,7 +169,8 @@
 
         <div class="col-12 col-sm-12 col-md-6 col-lg-5">
 
-            <img style="display:block;"  alt="image" class="img-fluid" src="./img/react.svg">
+            <img data-aos-delay="300"
+     data-aos-offset="0" data-aos="fade-up" id="whitepapericon" style="display:block;"  alt="image" class="img-fluid" src="./img/book.jpg">
 
 
 
@@ -197,7 +202,7 @@
     </div>
   </section>
 
-  <section id="benefits">
+  <section id="rans">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
@@ -210,7 +215,7 @@
   </section>
 
 
-  <section class="fdb-block team-5">
+  <section id="team" class="fdb-block team-5">
     <div class="container">
       <div class="row text-center justify-content-center">
         <div class="col-8">
@@ -438,11 +443,11 @@
       </div>
       <div class="row">
         <div class="col-lg-4 ml-auto text-center">
-          <i style="color:white" class="fas fa-phone fa-3x"></i>
+          <i data-aos="fade-up" style="color:white" class="fas fa-phone fa-3x"></i>
           <p style="color:white">123-456-6789</p>
         </div>
         <div class="col-lg-4 mr-auto text-center">
-          <i style="color:white" class="far fa-envelope fa-3x"></i>
+          <i data-aos="fade-up" style="color:white" class="far fa-envelope fa-3x"></i>
           <p>
             <a style="color:white" href="mailto:your-email@your-domain.com">feedback@blockbiz.com</a>
           </p>
@@ -465,6 +470,10 @@
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="particles.js"></script>
   <script src="js/timeline.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
