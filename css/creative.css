@@ -130,6 +130,11 @@ img::-moz-selection {
 #mainNav .navbar-center {
   display: inline;
   margin-top: 2px;
+  width: 115px;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link {
+  font-size: 13px;
 }
 
 @media (min-width: 992px) {

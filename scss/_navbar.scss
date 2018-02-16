@@ -41,6 +41,11 @@
   .navbar-center {
     display: inline;
     margin-top: 2px;
+    width: 115px;
+  }
+
+  .navbar-nav > li.nav-item > a.nav-link {
+    font-size: 13px;
   }
 
   @media (min-width: 992px) {
