@@ -925,8 +925,7 @@ section {
 }
 
 #team img {
-  height: 200px;
-  width: 200px;
+  display: inline-block;
 }
 
 /* The button-maker */
