@@ -430,6 +430,10 @@ section {
   margin-top: 10px;
 }
 
+#contact a {
+  margin: 0 10px;
+}
+
 .fdb-block .fa-linkedin {
   color: grey;
 }
@@ -935,10 +939,18 @@ section {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+#phases .badge {
+  padding: 5px 7px;
+}
+
 .card {
   margin-top: 10px;
   margin-bottom: 10px;
   box-sizing: content-box;
+}
+
+.card-header {
+  text-align: center;
 }
 
 .card-body {
